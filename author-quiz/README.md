@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# This is a Author Quiz App based on React Fundamentals
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

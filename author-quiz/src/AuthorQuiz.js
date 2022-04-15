@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+
+
+import AddAuthorForm from './components/AddAuthorForm';
 
 class AuthorQuiz extends Component {
-    render(props) {
+    render() {
         return (
-            <div>
-                {/* <h1>{props.a}+{props.b} = {props.a+props.b}</h1> */}
-                Author Quiz 
+            <div className='container-fluid'>
+              <AddAuthorForm/>
             </div>
         );
     }
